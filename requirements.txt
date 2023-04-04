@@ -1,0 +1,6 @@
+dash
+dash-bootstrap-components 
+dash.dependencies
+pandas
+plotly.express
+plotly.graph_objects

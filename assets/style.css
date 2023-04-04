@@ -1,0 +1,128 @@
+body {
+    background-color:#091936;
+    font-family: "Open Sans", verdana, arial, sans-serif;
+  }
+
+  .side_bar {
+    height: 100%;
+    width: 14%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #14489E;
+    padding-left: 1%;
+    padding-right: 1%;
+    color:rgb(7, 7, 7);
+  }
+
+  .main {
+    font-size: 15px;
+    padding: 0px 10px;
+    padding-left: 0%;
+    padding-right: 0%;
+    color:#e1e2df;
+  }
+
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4b9072a7;
+    padding-left: 1%;
+  }
+
+  h1 {
+    color:#e1e2df;
+    font-family: 'Titallium';
+  }
+
+  h2 {
+    margin-block-start:0.3em;
+    font-weight:lighter
+  }
+
+  h3 {
+    margin-block-start:0.3em;
+    font-size: smaller;
+    font-weight:lighter
+  }
+
+  h4 {
+    margin-block-end:0.3em;
+    font-size: smaller;
+    font-weight:lighter
+  }
+
+  .text{
+    margin: 10px;
+    padding: 25px;
+    align-self: center;
+  }
+
+  .row{
+    display: flex;
+  }
+
+  /* Boxes */
+
+  .boxtabs {
+    border-radius: 20px;
+    background-color:#39393A;
+    padding: 2%;
+    width:80%;
+  }
+
+  .box {
+    border-radius: 20px;
+    background-color: #39393A;
+    padding: 25px;
+    box-shadow: 2px 2px 2px lightgrey;
+    width:90%;
+  }
+
+  .box_circ_info{
+    border-radius: 2px;
+    background-color: #5656568e;
+    margin: 2px;
+    box-shadow: 2px 2px 2px lightgrey;
+    justify-content: left;
+    width: 90%;
+    text-align: center;
+  }
+
+  .circ_box {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color:#1B1B1C;
+  }
+
+  /* Tabs */
+  .tabs {
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    margin-top: 2%;
+    margin-left : 5%;
+    margin-bottom: 0%;
+    background-color: #39393A;
+    width: 20%;
+    text-align: center;
+  }
+
+  .labels {
+    color: firebrick;
+  }
+
+
+  /* Scrollbars */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  *::-webkit-scrollbar-track {
+    background: #EDEFEB;
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color:#e74343bf;
+    border-radius: 20px;
+    border: 3px solid #EDEFEB;
+  }
