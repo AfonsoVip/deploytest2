@@ -10,15 +10,15 @@ import dash_bootstrap_components as dbc
 
 ######################################################Data##############################################################
 
-df_1 = pd.read_excel("C:/Users/Afonso/PycharmProjects/pythonProject2/champions_league_dashy/data/datafinalchampions.xlsx")
-df_2 = pd.read_csv("C:/Users/Afonso/PycharmProjects/pythonProject2/champions_league_dashy/data/PlayerGoalTotals.csv")
-df_3 = pd.read_csv("C:/Users/Afonso/PycharmProjects/pythonProject2/champions_league_dashy/data/PlayerAppearTotals.csv")
+df_1 = pd.read_csv("https://raw.githubusercontent.com/AfonsoVip/deploytest2/master/data/datafinalchampions.csv")
+df_2 = pd.read_csv("https://raw.githubusercontent.com/AfonsoVip/deploytest2/master/data/PlayerGoalTotals.csv")
+df_3 = pd.read_csv("https://raw.githubusercontent.com/AfonsoVip/deploytest2/master/data/PlayerAppearTotals.csv")
 df_4 = pd.merge(df_2, df_3, on='Player')
-df_5 = pd.read_csv("C:/Users/Afonso/PycharmProjects/pythonProject2/champions_league_dashy/data/AllTimeRankingByClubDef.csv")
+df_5 = pd.read_csv("https://raw.githubusercontent.com/AfonsoVip/deploytest2/master/data/AllTimeRankingByClubDef.csv")
 df_6 = df_5.groupby(['Country', 'Club'])['Win'].sum().reset_index()
-df_7 = pd.read_excel('C:/Users/Afonso/PycharmProjects/pythonProject2/champions_league_dashy/data/concat.xlsx')
-df_8 = pd.read_csv('C:/Users/Afonso/PycharmProjects/pythonProject2/champions_league_dashy/data/CoachesAppearTotals.csv')
-df_9 = pd.read_csv('C:/Users/Afonso/PycharmProjects/pythonProject2/champions_league_dashy/data/CoachesAppearDetails.csv')
+df_7 = pd.read_csv('https://raw.githubusercontent.com/AfonsoVip/deploytest2/master/data/concat.csv')
+df_8 = pd.read_csv('https://raw.githubusercontent.com/AfonsoVip/deploytest2/master/data/CoachesAppearTotals.csv')
+df_9 = pd.read_csv('https://raw.githubusercontent.com/AfonsoVip/deploytest2/master/data/CoachesAppearDetails.csv')
 
 seasons = df_1['SEASON'].to_list()
 players = df_7["Player"].to_list()
