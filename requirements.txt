@@ -1,6 +1,6 @@
+gunicorn
 dash
 dash-bootstrap-components 
-dash.dependencies
+numpy
 pandas
-plotly.express
-plotly.graph_objects
+plotly
