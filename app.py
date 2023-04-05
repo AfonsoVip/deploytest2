@@ -177,7 +177,7 @@ tab_coaches = html.Div([
                 html.Br(),
                 html.H2('Champions League Appearances per Club',style={'font-weight':'bold'}),
                 dcc.Dropdown(
-                    id='coaches',
+                    id='coaches_1',
                     options=coaches_options1,
                     value='Sir Alex Ferguson',
                 ),
@@ -388,7 +388,7 @@ def update_histogram(selected_coaches):
 
 @app.callback(
     Output('pie_chart_coach', 'figure'),
-    [Input('coaches', 'value')]
+    [Input('coaches_1', 'value')]
 )
 
 def update_pie_chart(selected_coach):
