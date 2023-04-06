@@ -397,7 +397,6 @@ def update_pie_chart(selected_coach):
         filtered_df,
         values='Appearance',
         names='Club',
-        title=f"Champions League Appearances per Club for {selected_coach}",
         hole=0.5,
         labels={'Club': 'Club Name', 'Appearance': 'Appearances'},
         color_discrete_sequence=px.colors.qualitative.Pastel
