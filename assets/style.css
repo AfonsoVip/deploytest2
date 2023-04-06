@@ -23,19 +23,6 @@ body {
     color:#e1e2df;
   }
 
-  .footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #4b9072a7;
-    padding-left: 1%;
-  }
-
-  h1 {
-    color:#e1e2df;
-    font-family: 'Titallium';
-  }
 
   h2 {
     margin-block-start:0.3em;
@@ -52,16 +39,6 @@ body {
     margin-block-end:0.3em;
     font-size: smaller;
     font-weight:lighter
-  }
-
-  .text{
-    margin: 10px;
-    padding: 25px;
-    align-self: center;
-  }
-
-  .row{
-    display: flex;
   }
 
   /* Boxes */
